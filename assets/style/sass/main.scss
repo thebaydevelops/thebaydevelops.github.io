@@ -18,23 +18,23 @@
 --------------------------------------------------------------*/
 
 body {
-    background: $body-background;
-    color: $body-color;
-    font-family: $main-font-family;
-  }
+  background: #fff;
+  color: black;
+  font-family: "open Sans", sans-serif;
+}
   
-  a {
+a {
     color: #1bb1dc;
     transition: 0.5s;
-  }
+}
   
-  a:hover,
-  a:active,
-  a:focus {
-    color: #0a98c0;
-    outline: none;
-    text-decoration: none;
-  }
+a:hover,
+a:active,
+a:focus {
+  color: #0a98c0;
+  outline: none;
+  text-decoration: none;
+}
   
   p {
     padding: 0;
@@ -222,7 +222,7 @@ body {
     width: 100%;
     height: 100vh;
     position: relative;
-    background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;
+    background: #f5f8fd url("../../images/graphics/intro-bg.jpg") center top no-repeat;
     background-size: cover;
   }
   
